@@ -6,11 +6,11 @@ import androidx.lifecycle.ViewModelProviders
 import br.com.silverio.postgraduate_02.product.ProductListViewModel
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val viewModel = ViewModelProviders.of(this).get(ProductListViewModel::class.java)
 
     }
 }
